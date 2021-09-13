@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @record.date %>
+</p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @record.company %>
+</p>
+
+<p>
+  <strong>Agent:</strong>
+  <%= @record.agent %>
+</p>
+
+<p>
+  <strong>Score:</strong>
+  <%= @record.score %>
+</p>
+
+<%= link_to 'Edit', edit_record_path(@record) %> |
+<%= link_to 'Back', records_path %>
