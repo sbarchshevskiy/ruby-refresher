@@ -31,8 +31,8 @@
     <%= form.text_field :score %>
   </div>
   <div class="field">
-    <%= form.label "Progress" %>
-    <%= form.select(:proress_type, options_for_select([['Delivered', 'Delivered'], ['Pending Delivery', 'Pending Delivery']])) %>
+    <%= form.label :progress_type %>
+    <%= form.select(:progress_type, options_for_select([['Delivered', 'Delivered'], ['Pending Delivery', 'Pending Delivery']])) %>
   </div>
 
   <div class="actions">

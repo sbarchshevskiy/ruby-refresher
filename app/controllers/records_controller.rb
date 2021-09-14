@@ -64,6 +64,6 @@ class RecordsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def record_params
-      params.require(:record).permit(:date, :company, :agent, :score)
+      params.require(:record).permit(:date, :company, :agent, :score, :progress_type)
     end
 end
