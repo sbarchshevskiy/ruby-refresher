@@ -32,7 +32,7 @@
   </div>
   <div class="field">
     <%= form.label :progress_type %>
-    <%= form.select(:progress_type, options_for_select([['Delivered', 'Delivered'], ['Pending Delivery', 'Pending Delivery']])) %>
+    <%= form.select(:progress_type, options_for_select([['Delivered', 'Delivered'], ['Pending Delivery', 'Pending Delivery']]), { include_blank: true }) %>
   </div>
 
   <div class="actions">
